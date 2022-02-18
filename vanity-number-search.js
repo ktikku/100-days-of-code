@@ -18,6 +18,7 @@ function convertCode (map, codes) {
     })
     return convertedCodes;
 }
+
 function vanity(codes, numbers) {
     const map = new Map();
     map.set("A", 2);
@@ -48,7 +49,6 @@ function vanity(codes, numbers) {
     map.set("Z", 9);
     
     const convertedCodes = convertCode(map, codes);
-    console.log('convertedCodes', convertedCodes)
     const vanityNumbers = numbers.filter(number => {
         for(let i = 0; i < convertedCodes.length; i++) {
             if(number.includes(convertedCodes[i])) {
