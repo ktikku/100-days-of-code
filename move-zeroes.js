@@ -10,7 +10,6 @@ var moveZeroes = function (nums) {
       zero++;
     }
   }
-  return nums;
 };
 
 var swap = function (nums, a, b) {
