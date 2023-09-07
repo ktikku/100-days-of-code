@@ -1,3 +1,3 @@
 console.log('testing wqewqe vs merge')
 console.log('Hello varun')
-aSD
+console.log('This is a new test')
