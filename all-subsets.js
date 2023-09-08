@@ -1,3 +1,4 @@
+# medium
 var subsets = function(nums) {
     let res = new Array()
     function rescursive(arr,index) {
